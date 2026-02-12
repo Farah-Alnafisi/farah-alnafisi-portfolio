@@ -1,48 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Farah Alnafisi | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farah Alnafisi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <header>
-        <h1>Farah Alnafisi</h1>
-        <p>Fresh Software Engineering Graduate | Web Development</p>
-    </header>
+  <nav class="nav">
+    <a class="brand" href="#home">Farah Alnafisi</a>
+    <div class="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Fresh Software Engineering graduate interested in turning ideas into structured web applications,
-            committed to continuous learning and practical growth.
+  <header id="home" class="hero">
+    <div class="container heroGrid">
+      <div>
+        <p class="kicker">Fresh Software Engineering Graduate</p>
+        <h1>Web Development & Application Design</h1>
+        <p class="subtitle">
+          I’m interested in turning ideas into structured web applications and continuously improving through hands-on practice.
         </p>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>HTML & CSS</li>
-            <li>Git & GitHub</li>
+        <div class="heroActions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btnGhost" href="https://www.linkedin.com/in/farah-alnafisi/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="stats">
+          <div class="statCard">
+            <div class="statNum">1</div>
+            <div class="statLabel">Portfolio Project</div>
+          </div>
+          <div class="statCard">
+            <div class="statNum">+6</div>
+            <div class="statLabel">Core Skills</div>
+          </div>
+          <div class="statCard">
+            <div class="statNum">2026</div>
+            <div class="statLabel">Starting Strong</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heroCard">
+        <h3>Quick Summary</h3>
+        <ul class="cleanList">
+          <li>Focused on structured web applications</li>
+          <li>Clean, simple, maintainable code</li>
+          <li>Growing through real projects</li>
         </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p class="text">
+        Fresh Software Engineering graduate committed to continuous learning and practical growth.
+        I enjoy building structured solutions and improving with every project.
+      </p>
     </section>
 
-    <section id="projects">
+    <section id="skills" class="section">
+      <h2>Tools & Technologies</h2>
+      <div class="chips">
+        <span class="chip">Java</span>
+        <span class="chip">Python</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">C++</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">Git</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">VS Code</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="sectionHeader">
         <h2>Projects</h2>
-        <p>Coming soon...</p>
+        <p class="muted">I’m currently building my portfolio. More projects will be added soon.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="tag">Frontend</div>
+          <h3>Portfolio Website (v1)</h3>
+          <p class="muted">A clean personal portfolio built with HTML & CSS.</p>
+          <div class="cardFooter">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Coming Soon</div>
+          <h3>To-Do Web App</h3>
+          <p class="muted">A simple task app with clean UI and JavaScript interactions.</p>
+          <div class="cardFooter">
+            <span class="pill">JavaScript</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="tag">Coming Soon</div>
+          <h3>Weather App</h3>
+          <p class="muted">A weather UI that consumes an API and displays results nicely.</p>
+          <div class="cardFooter">
+            <span class="pill">API</span>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <a href="https://www.linkedin.com/in/farah-alnafisi/" target="_blank">
-            Connect on LinkedIn
-        </a>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="text">Let’s connect on LinkedIn.</p>
+      <a class="btn" href="https://www.linkedin.com/in/farah-alnafisi/" target="_blank" rel="noreferrer">Open LinkedIn</a>
     </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerInner">
+      <span class="muted">© 2026 Farah Alnafisi</span>
+      <a class="muted" href="#home">Back to top</a>
+    </div>
+  </footer>
 
 </body>
 </html>
